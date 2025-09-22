@@ -1,0 +1,141 @@
+.top-container {
+    background-color: hwb(189 44% 1%);
+    position: relative;
+    padding-top: 100px;
+  }
+  
+h1 {
+    color: #0b1111;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+  }
+  h2 {
+    color: #0c2323;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+  a {
+    color: #010607;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 30px;
+    text-decoration: none;
+}
+.my-photo{
+    margin-top: 50pt;
+    border-radius: 50%;
+}
+.web-dev
+{
+    padding-top: 60px;
+    height:300px;   
+}
+.h22{
+    color: #66bfbf;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-size: 2.8rem;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+hr{
+    border: dotted #66bfbf 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.web{
+    width:100%;
+}
+.working
+{
+    width: 100%;
+}
+
+.myskills
+{
+    color: #66bfbf;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-size: 2.8rem;
+}
+.intro{
+    font-size: 1.5rem;
+    color: #0b1111;
+}
+.third{
+    padding-top:5rem;
+    color: #66bfbf;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-size: 2.8rem;
+}
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+.copyright {
+    color: #eaf6f6;
+    font-size: 1.3rem;
+    padding: 20px 0;
+}
+.btn{
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+}
+.parent
+{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    column-gap: 2rem;
+    row-gap: 4rem;
+}
+p{
+    line-height: 2;
+}
+h3 {
+    color: #11999e;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+.par{
+    color:#0b1111;
+    font-size: 1.3rem;
+}
+body {
+    color: #e6f5f2;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
