@@ -315,12 +315,14 @@ h1 em,
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
+  width: 100%;
   color: var(--muted);
   font-size: 13px;
 }
 .section-heading p {
   margin: 0;
   text-align: left;
+  align-self: flex-start;
 }
 .project-card {
   display: grid;
