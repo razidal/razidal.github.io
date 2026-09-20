@@ -312,14 +312,15 @@ h1 em,
 }
 .section-heading {
   display: flex;
-  justify-content: space-between;
-  align-items: start;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
   color: var(--muted);
   font-size: 13px;
 }
 .section-heading p {
   margin: 0;
-  text-align: right;
+  text-align: left;
 }
 .project-card {
   display: grid;
