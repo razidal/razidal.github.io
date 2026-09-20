@@ -2,6 +2,7 @@ const progress = document.querySelector(".scroll-progress");
 const glow = document.querySelector(".cursor-glow");
 const menuToggle = document.querySelector(".menu-toggle");
 const nav = document.querySelector(".site-nav");
+const backToTop = document.querySelector(".back-to-top");
 const currentYear = new Date().getFullYear();
 
 document.querySelectorAll(".current-year").forEach((element) => {
@@ -11,7 +12,12 @@ document.querySelectorAll(".current-year").forEach((element) => {
 window.addEventListener("scroll", () => {
   const scrollable = document.documentElement.scrollHeight - window.innerHeight;
   progress.style.width = `${scrollable ? (window.scrollY / scrollable) * 100 : 0}%`;
+  backToTop.classList.toggle("visible", window.scrollY > 300);
 }, { passive: true });
+
+backToTop.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
 
 window.addEventListener("pointermove", (event) => {
   glow.style.left = `${event.clientX}px`;
